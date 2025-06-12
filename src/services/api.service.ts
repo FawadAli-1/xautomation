@@ -14,7 +14,7 @@ export interface ApiError {
   statusCode: number;
   message: string;
   code: string;
-  details?: any;
+  details?: unknown;
 }
 
 export interface PublishResponse {
